@@ -5,7 +5,36 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Goodwill Auto Electrical | Expert Vehicle Solutions</title>
+    <title>Goodwill Auto Electrical | Expert Vehicle Solutions | Port Shepstone</title>
+    
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png">
+    <link rel="manifest" href="public/site.webmanifest">
+
+    <meta name="description" content="Goodwill Auto Electrical in Port Shepstone offers expert auto electrical diagnostics, repairs, and installations for all vehicle makes and models. Certified technicians. Get a quote via WhatsApp." />
+    <meta name="keywords" content="auto electrical, vehicle diagnostics, car electrical repair, Port Shepstone, Marburg, KZN, alternator, starter, wiring" />
+    <meta name="author" content="Goodwill Auto Electrical" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://goodwillautoelectrical.co.za/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://goodwillautoelectrical.co.za/" />
+    <meta property="og:title" content="Goodwill Auto Electrical | Expert Vehicle Solutions" />
+    <meta property="og:description" content="Expert auto electrical diagnostics, repairs, and installations in Port Shepstone. Certified technicians for all vehicle makes and models. Get a quote on WhatsApp." />
+    <meta property="og:image" content="https://goodwillautoelectrical.co.za/assets/logo.png" />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:site_name" content="Goodwill Auto Electrical" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://goodwillautoelectrical.co.za/" />
+    <meta name="twitter:title" content="Goodwill Auto Electrical | Expert Vehicle Solutions" />
+    <meta name="twitter:description" content="Expert auto electrical diagnostics, repairs, and installations in Port Shepstone. Certified technicians. Get a quote on WhatsApp." />
+    <meta name="twitter:image" content="https://goodwillautoelectrical.co.za/assets/logo.png" />
+
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet" />
@@ -64,18 +93,72 @@
             opacity: 1;
         }
     </style>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Goodwill Auto Electrical",
+        "description": "Expert auto electrical diagnostics, repairs, and installations for all vehicle makes and models. Certified technicians in Port Shepstone.",
+        "url": "https://goodwillautoelectrical.co.za",
+        "telephone": "+27396854306",
+        "email": "info@goodwillautoelectrical.co.za",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "10 Lind Rd, Marburg",
+            "addressLocality": "Port Shepstone",
+            "postalCode": "4240",
+            "addressRegion": "KwaZulu-Natal",
+            "addressCountry": "ZA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-30.7411",
+            "longitude": "30.4547"
+        },
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "-30.7411",
+                "longitude": "30.4547"
+            },
+            "geoRadius": "50000"
+        },
+        "priceRange": "$$",
+        "sameAs": [
+            "https://wa.me/27723456502"
+        ],
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+        },
+        "image": "https://goodwillautoelectrical.co.za/public/logo.png",
+        "serviceType": [
+            "Auto electrical diagnostics",
+            "Electrical repairs",
+            "Wiring and installations",
+            "Alternator and starter repair",
+            "Battery services",
+            "Vehicle lighting"
+        ]
+    }
+    </script>
 </head>
 
 <body class="bg-background-light dark:bg-background-dark text-[#1c190d] dark:text-white antialiased">
     <!-- Top Navigation Bar -->
     <nav
-        class="sticky top-0 z-50 w-full bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-primary/20">
+        class="sticky top-0 z-50 w-full bg-white dark:bg-white text-[#1c190d] backdrop-blur-md border-b border-primary/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20 lg:h-24">
+            <div class="flex justify-between items-center h-24 lg:h-28">
                 <!-- Logo Section -->
                 <div class="flex items-center gap-3">
-                    <img alt="Goodwill Auto Electrical Logo" class="h-12 sm:h-14 lg:h-16 w-auto"
-                        src="assets/logo.png" />
+                    <img alt="Goodwill Auto Electrical Logo" class="h-20 sm:h-24 lg:h-24 w-auto"
+                        src="public/logo.png" />
                     
                 </div>
                 <!-- Desktop Menu -->
@@ -97,7 +180,7 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="md:hidden bg-background-light dark:bg-background-dark border-t border-primary/20">
+        <div id="mobile-menu" class="md:hidden bg-white dark:bg-white border-t border-primary/20">
             <div class="px-4 py-6 space-y-4">
                 <a class="block text-lg font-semibold hover:text-primary transition-colors py-2" href="#home" onclick="closeMobileMenu()">Home</a>
                 <a class="block text-lg font-semibold hover:text-primary transition-colors py-2" href="#services" onclick="closeMobileMenu()">Services</a>
@@ -145,7 +228,7 @@
                         class="relative bg-white dark:bg-background-dark p-2 rounded-[2rem] border border-primary/20 shadow-2xl">
                         <div class="aspect-video w-full rounded-[1.75rem] overflow-hidden bg-center bg-cover"
                             alt="Auto electrical wiring and diagnostics"
-                            style="background-image: url('assets/hero-image.png');">
+                            style="background-image: url('public/hero-image.png');">
                         </div>
                     </div>
                 </div>
@@ -382,13 +465,13 @@
         </span>
     </a>
     <!-- Footer -->
-    <footer class="bg-background-light dark:bg-background-dark border-t border-primary/10 py-16">
+    <footer class="bg-white dark:bg-white text-[#1c190d] border-t border-primary/10 py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <div class="flex flex-col gap-6">
                     <div class="flex items-center gap-3">
-                        <img alt="Footer Logo" class="h-10 sm:h-12 w-auto"
-                            src="assets/logo.png" />
+                        <img alt="Footer Logo" class="h-12 sm:h-14 lg:h-16 w-auto"
+                            src="public/logo.png" />
                     </div>
                     <p class="text-sm text-[#1c190d]/60 dark:text-white/60 leading-relaxed">
                         Leading provider of specialized automotive electrical services. Committed to safety, precision,
